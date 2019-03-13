@@ -1,0 +1,35 @@
+# Spring look for all class path to find if it is service, Controller or other thing 
+@RestController
+	this annotation say this is rest Controller and it will server request.
+
+@Component: It is a basic auto component scan annotation, it indicates annotated class is a auto scan component.
+
+@Repository: You need to use this annotation with in the persistance layer, which acts like database repository.
+
+@Service: It indicates annotated class is a Service component in the business layer.
+
+@PathVariable  when variable is coming from request 
+@Controller: Annotated class indicates that it is a controller components, and mainly used at presentation layer.
+	
+	when sending post request tell that request abject is json.
+	content-type application/json
+@EntityScan will be used to scan 	
+
+@EnableJpaRepositories to say Repositories will used and give package where it is is present.
+
+@GeneratedValue(strategy = GenerationType.AUTO)
+
+
+
+8601207777
+# command to connect 
+show databases;
+show tables;
+use database;
+
+028710
+
+CREATE TABLE course (course_id VARCHAR(100), course_name VARCHAR(100) , course_detail VARCHAR(100) ,PRIMARY KEY (course_id))
+  
+  
+	
